@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,16 @@
     <script src="script.js" defer></script>
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
             <ul>
-                <li><a href="#">home</a></li>
+                <li><a href="#" class="active">home</a></li>
                 <li><a href="#">about</a></li>
                 <li><a href="#">services</a></li>
                 <li><a href="#">portifolio</a></li>
@@ -22,5 +24,25 @@
             </ul>
         </nav>
     </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>
+                Hello, it's me
+            </h3>
+            <h1>Alexssandro</h1>
+            <h3>And I'm a <span>Frontend developer</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequuntur rem, sunt tempora praesentium eaque quisquam explicabo a. Qui excepturi voluptatum minus fugiat officia alias rem consectetur distinctio reprehenderit praesentium.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-image">
+            <img src="" alt="">
+        </div>
+    </section>
 </body>
 </html>
